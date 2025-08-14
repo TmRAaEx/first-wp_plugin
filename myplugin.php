@@ -5,3 +5,10 @@
 
 
 */
+
+function hook_msg()
+{
+    echo "<p>Thank you for visiting our site!</p>";
+}
+
+add_action("message", "hook_msg");  
