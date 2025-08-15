@@ -12,3 +12,6 @@ function hook_msg()
 }
 
 add_action("message", "hook_msg");  
+
+
+require_once plugin_dir_path(__FILE__) . 'books.php';   
